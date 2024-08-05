@@ -1,0 +1,128 @@
+/* styles.css */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 56px;
+}
+.container{
+    text-align: center
+}
+
+.hero {
+    padding: 100px 0;
+    background: url('img/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero .display-4 {
+    font-weight: 700;
+}
+
+.about img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.skills .bi {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.projects .card {
+    margin-bottom: 30px;
+}
+
+.contact {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.contact .form-control {
+    border-radius: 0;
+}
+
+.contact .btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+footer {
+    background: #343a40;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.testimonial-card {
+    margin: 30px 0;
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.testimonial-card .avatar {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card .avatar img {
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card .card-title {
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    color: #555;
+}
+
+.aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+}
+
+.blue-gradient {
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+}
+
+.purple-gradient {
+    background: linear-gradient(40deg, #a770ef, #cf8bf3, #fdb99b) !important;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    display: block;
+    margin: 5px 0;
+}
+
+.social-links i {
+    margin-right: 8px;
+}
+.kl{
+    border-radius: 50%;
+    background: #05ffa3;
+    width: 200px;
+}
